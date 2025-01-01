@@ -104,8 +104,8 @@ export default function Home() {
           <p className="logo text-2xl font-bold">CONSULTI</p>
           <p className="text-sm">Lorem ipsum dolor sit amet, consect ascing elit, sed do eiusmod incididunt ut labore et dolore Many desktop lishing packages and web page editors</p>
           <ul className="flex gap-4">
-            {linksArr.map((link: links) => (
-              <li className="text-sm "><Link href={link.href}> {<link.icon />} </Link></li>
+            {linksArr.map((link: links, index) => (
+              <li className="text-sm" key={index}><Link href={link.href}> {<link.icon />} </Link></li>
             ))}
           </ul>
         </div>
