@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <div className="">
           <div className="relative top-16">
-            <Navbar />
+            <Navbar />  
           </div>
           {children}
         </div>
