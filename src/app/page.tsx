@@ -1,5 +1,4 @@
 'use client'
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { FaChartBar, FaChartArea } from "react-icons/fa";
@@ -20,13 +19,6 @@ export default function Home() {
 
   return (
     <div>
-      <Head>
-        <title>Consulting Site</title>
-        <meta property="og:title" content="Consulting Site" />
-        <meta property="og:description" content="Welcome to my consulting site!" />
-        <meta property="og:image" content="/favicon.ico" />
-        <meta property="og:url" content="https://consulting-ashy.vercel.app/" />
-      </Head>
       <div className={`hero bg-[url(/images/pexels1.jpg)] bg-cover h-screen backdrop-blur-md bg-center relative`}>
       <div className="absolute inset-0 bg-black opacity-50 -z-10"></div>
         <div className="md:pt-64 pl-[5%] pt-80 flex flex-col gap-4 md:gap-16">
