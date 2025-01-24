@@ -1,33 +1,9 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { FaChartBar, FaChartArea } from "react-icons/fa";
-import image from "../../public/images/pexels1.jpg";
+import { FaChartBar } from "react-icons/fa";
 import { useState } from "react";
 import { linksArr, links } from "./links";
-
-const services = [
-  {
-    url: "/images/pexels-mart-production-7709306.jpg",
-    head: "Business",
-    text: "Nor again is there anyone who loves amir",
-  },
-  {
-    url: "/images/pexels-mart-production-7709306.jpg",
-    head: "Travel",
-    text: "If you are going to use a pass of Lorem Ipsum you",
-  },
-  {
-    url: "/images/pexels-mart-production-7709306.jpg",
-    head: "Environment",
-    text: "Sed ut perspiciatis unde omn iste natus error sit.",
-  },
-  {
-    url: "/images/pexels-mart-production-7709306.jpg",
-    head: "Financial",
-    text: "Lorem ipsum dolor sit amet, adipiscing elit, sed do",
-  },
-];
 
 export default function Home() {
   const [aboutState, setAboutState] = useState("hidden");
